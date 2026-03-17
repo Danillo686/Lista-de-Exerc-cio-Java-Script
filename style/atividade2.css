@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost';
+}
+
+.caixa{
+    background-color: rgb(214, 214, 214);
+    border: solid black 2px;
+    border-radius: 6px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#entrada1 {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Jost';
+}
+
+#entrada1:focus {
+    outline: none;
+}
+
+
+#enter {
+    margin: 10px;
+    padding: 10px;
+    border: none 3px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#enter:hover {
+    background-color: rgb(188, 204, 204);
+}
+
+#titulo {
+    text-align: center;
+}
+
+#resp {
+    text-align: center;
+    color: rgb(43, 255, 43);
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 
+        -1px -1px 0 rgb(0, 0, 0),  
+         1px -1px 0 rgb(0, 0, 0),
+        -1px  1px 0 rgb(0, 0, 0),
+         1px  1px 0 rgb(0, 0, 0);
+}
+
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#prox {
+    margin: 10px;
+    padding: 10px;
+    border: none 3px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#prox:hover {
+    background-color: rgb(188, 204, 204);
+}
